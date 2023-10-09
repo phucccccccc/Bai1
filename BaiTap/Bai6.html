@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        
+    }
+    .header{
+        width:100%;
+        padding: 20px;
+        margin-top: 0px;
+        background-color: aqua;
+        text-align: center;
+    }
+    .conten > div{
+        display: inline-block;  
+    }
+    .box-left{
+        width: 70%;
+        background-color: aquamarine;
+        min-height: 400px;
+        text-align: center;
+        padding-top: 5px;
+        float: left;
+    }
+    .box-right{
+       width: 30%;
+        background-color: rgb(220, 116, 210);
+        min-height: 400px;
+        text-align: center;
+        padding-top: 5px;
+        margin-right: 0px;
+        float: left;
+    }
+    .Box{
+        width: 100%;
+      
+       
+    }
+    div{
+        display: block;
+    }
+    .Box > div{
+        display:inline-block;
+        background-color: blanchedalmond;
+        width: calc(100%/4 - 10px);
+        height: 150px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        
+    }
+    .footer{
+        background-color: blue;
+        padding: 50px;
+        text-align: center;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="conten">
+            <div class="box-left">Content</div>
+            <div class="box-right">Aside</div>
+        </div>
+        <div class="Box">
+           <div>Box1</div>
+           <div>Box2</div>
+           <div>Box3</div>
+           <div>Box4</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+    
+</body>
+</html>

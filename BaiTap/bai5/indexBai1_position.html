@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập về position</title>
+</head>
+<body>
+    <style>
+     .container{
+        background: #e25300;
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        padding: 12px 20px;
+        border-radius: 9px;
+     }
+     .container ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .container ul li {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: 30px;
+    }
+    .box > div{
+        display: inline-block;
+        border-radius: 8px;
+    }
+    .box {
+        width: 100%;
+        height: 1024px;
+        background-color: aquamarine;
+        margin-top: 30px;
+       
+    }
+    .box1 {
+        padding: 30px;
+        width: 150px;
+        background-color: red;
+        text-align: center;
+        border-radius: 8px;
+        margin-top: 0px;
+       
+    }
+    .box2 {
+        padding: 30px;
+        width: 150px;
+        background-color: red;
+        text-align: center;
+        position: relative;
+        margin-top: 10px;
+        margin-right: 10px;
+        float: right;
+        
+    }
+    .box3 {
+        padding: 30px;
+        width: 150px;
+        background-color: red;
+        text-align: center;
+        margin-top: 600px;
+        margin-left: 900px;
+    }
+    .box4 {
+        padding: 30px;
+        width: 150px;
+        background-color: red;
+        text-align: center;
+        margin-right: 300px;
+    }
+    .contenn{
+     
+        height: 150px;
+        padding: 60px;
+        border-radius: 9px;
+        background-color: rgb(97, 97, 182);
+        text-align: center;
+        overflow: hidden;
+    }
+    i{
+        background-color: green;
+        padding: 30px;
+        border-radius: 50px;
+        font-size: 20px;
+        color: white;
+        z-index: 999;
+        float: right;
+        
+    }
+    .mo{
+        width: 60px;
+        height: 60px;
+        background-color: rgb(182, 182, 54);
+        border-radius: 50px;
+        opacity: 0.6;
+        
+    }
+  
+    </style>
+    <h1>Bài tập về position</h1>
+    <p><strong>
+        Yêu cầu:
+    </strong>
+    Code các box như dưới đây. Chú ý có cả bo góc cho các element
+    </p>
+    <div class="container">
+        <ul>
+            <li>Trang chủ</li>
+            <li>Giới thiệu</li>
+            <li>Tin tức</li>
+            <li>liên hệ</li>
+        </ul>
+    </div>
+    <div class="box">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+    </div>
+    <div class="contenr">
+        <div>
+            <div class="mo"></div>
+            <div class="contenn">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, qui totam, minus voluptate porro tempore delectus maxime eaque fugit omnis quo dicta sit eveniet neque si
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos tempora itaque nam temporibus vel amet magni blanditiis! Cumque, ea? Magnam vitae labore sed suscipit ab id e
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem accusantium ut numquam, asperiores neque fuga similique reiciendis ipsa placeat dolor nostrum autem adipisci con
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio labore eum voluptatem. Aspernatur officia officiis commodi quo. Repudiandae rem magnam dolorum amet esse p
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed sit sequi laborum in? Quam eum sed inventore odio distinctio quos consectetur! Sequi quibusdam nobis molestias l
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi id esse dolor dolorum obcaecati delectus quia, laboriosam reiciendis, repudiandae ab quo, modi accusantium? Q
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi architecto nesciunt voluptas pariatur minus enim doloremque culpa sed autem ratione ipsam perferendis, ea iusto
+
+            </p>
+        </div>
+        <p>
+        </div>
+        <i class="fa-solid fa-phone"></i>
+    </div>
+   
+</body>
+</html>
